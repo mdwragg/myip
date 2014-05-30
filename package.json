@@ -1,8 +1,8 @@
 {
   "name": "myip",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Command line node utility to print my ip address",
-  "main": "index.js",
+  "main": "js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/mdwragg/myip/issues"
   },
-  "homepage": "https://github.com/mdwragg/myip"
+  "homepage": "https://github.com/mdwragg/myip",
+  "preferGlobal": "true",
+  "bin": {
+    "myip" : "js/index.js"
+  }
 }
